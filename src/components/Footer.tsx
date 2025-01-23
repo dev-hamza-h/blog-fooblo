@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="max-w-screen-2xl mx-auto bg-green-400 text-white py-20 px-6 md:px-20 lg:px-20">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
         <div className="mb-6 md:mb-0">
-          <h1 className="mt-2 text-2xl font-extrabold text-red-500">
+          <h1 className="mt-2 text-2xl font-extrabold text-red-600">
             FOO<span className="text-black">BLO</span>
           </h1>
           <p className="text-black mb-4">Subscribe to Our Newsletter:</p>

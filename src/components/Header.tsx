@@ -11,17 +11,17 @@ export default function Header() {
   return (
     <>
       {/* Top bar */}
-      <div className="max-w-screen-2xl mx-auto bg-red-500 text-white text-xs md:text-sm flex justify-center items-center px-2 py-2 space-x-2 z-[100] fixed top-0 left-0 right-0 ">
+      <div className="max-w-screen-2xl mx-auto bg-red-600 text-white text-xs md:text-sm flex justify-center items-center px-2 py-2 space-x-2 z-[100] fixed top-0 left-0 right-0 ">
         <span>Sign up today and never miss a new post.</span>
         <a href="#" className="underline hover:text-green-300">
           Sign Up Now
         </a>
       </div>
 
-      <header className="flex justify-between fixed top-[30px] left-0 right-0 z-50 px-10 py-4 bg-green-400 max-w-screen-2xl mx-auto">
+      <header className="flex justify-between fixed top-[30px] left-0 right-0 z-50 px-10 py-4 bg-green-500 max-w-screen-2xl mx-auto">
         {/* LOGO CONTENT */}
         <div className="flex ml-0 md:ml-10">
-          <h1 className="mt-2 text-2xl font-extrabold text-red-500">
+          <h1 className="mt-2 text-2xl font-extrabold text-red-600">
             FOO<span className="text-black">BLO</span>
           </h1>
         </div>
@@ -56,7 +56,7 @@ export default function Header() {
               className="flex items-center mb-4 ml-0"
               style={{ marginLeft: 0, paddingLeft: 0 }}
             >
-              <h1 className="text-xl font-extrabold text-red-500 ml-2 mt-6">
+              <h1 className="text-xl font-extrabold text-red-600 ml-2 mt-12">
                 FOO<span className="text-black">BLO</span>
               </h1>
             </div>
